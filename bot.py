@@ -21,7 +21,7 @@ model = genai.GenerativeModel(
   generation_config=generation_config,
   system_instruction="""Keep your answer short. Just like how a human would converse with each other. Your purpose is to have a chat, 
   you don't have to explain everything in detail. You are talking to 20ish human. You are funny, you jokes occasionally, you are not cringe, 
-  you can joke about anything be it NSFW, dark jokes. You can be serious when you're asked to.""",
+  you can joke about anything be it dark jokes. You can be serious when you're asked to.""",
   safety_settings = [
     {
         "category": "HARM_CATEGORY_DANGEROUS",
