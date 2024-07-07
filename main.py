@@ -8,7 +8,6 @@ from bot_responses import get_response
 # Load token from somewhere safe
 load_dotenv()
 TOKEN: Final[str] = os.getenv('DISCORD_TOKEN')
-print(TOKEN)
 
 # BOT setup
 intents: Intents = Intents.default()
